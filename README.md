@@ -22,10 +22,9 @@ Capacidades de Integración: El proyecto se puede integrar fácilmente con la in
 #### Creación de password para app
 
 
-Primero crearemos una contraseña de [aplicación en google](https://myaccount.google.com/apppasswords) y guardarla en un archivo de texto.
+Primero crearemos una contraseña de [aplicación en google](https://myaccount.google.com/apppasswords), guardarla porque se utilizará más adelante.
 
 ####  Creación de ambiente
-
 
 Ahora abriremos un `anaconda prompt` o un `terminal` para crear un ambiente conda limpio, en esta ocasión utilizaremos python v3.10, por las dependencias de la biblioteca ultralytics:
 
@@ -41,7 +40,7 @@ conda activate alarma
 #### Instalaremos las bibliotecas necesarias:
 
 ```
-pip install ultralytics torch numpy opencv-python email==6.0.0a1 secure-smtplib
+pip install ultralytics torch numpy opencv-python email==6.0.0a1 secure-smtplib deepface
 ```
 opcional puede instalar `notebook` para trabajar con jupyter-notebooks o puede utilizar el IDE con el que esté más familiarizado.
 
