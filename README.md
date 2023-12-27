@@ -14,13 +14,39 @@ Capacidades de Integración: El proyecto se puede integrar fácilmente con la in
   
 
   
-<sup><sub>basado en (Tutorial security alarm system)[https://docs.ultralytics.com/guides/security-alarm-system]</sub></sup>
+<sup><sub>basado en [Tutorial security alarm system](https://docs.ultralytics.com/guides/security-alarm-system)</sub></sup>
 
 
 ## Puesta a punto
 
-Crearemos un ambiente en conda, en esta ocasión utilizaremos python v3.10, por las dependencias de ultralytics:
+#### Creación de password para app
+
+
+Primero crearemos una contraseña de [aplicación en google](https://myaccount.google.com/apppasswords) y guardarla en un archivo de texto.
+
+####  Creación de ambiente
+
+
+Ahora abriremos un `anaconda prompt` o un `terminal` para crear un ambiente conda limpio, en esta ocasión utilizaremos python v3.10, por las dependencias de la biblioteca ultralytics:
+
 ```bash
 conda create --name alarma python=3.10 
 ```
+
+```bash
+conda activate alarma 
+```
+
+
+#### Instalaremos las bibliotecas necesarias:
+
+```
+pip install ultralytics torch numpy opencv-python email==6.0.0a1 secure-smtplib
+```
+opcional puede instalar `notebook` para trabajar con jupyter-notebooks o puede utilizar el IDE con el que esté más familiarizado.
+
+```
+pip install notebook
+```
+
 
