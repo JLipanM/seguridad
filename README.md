@@ -17,4 +17,10 @@ Capacidades de Integración: El proyecto se puede integrar fácilmente con la in
 <sup><sub>basado en (Tutorial security alarm system)[https://docs.ultralytics.com/guides/security-alarm-system]</sub></sup>
 
 
+## Puesta a punto
+
+Crearemos un ambiente en conda, en esta ocasión utilizaremos python v3.10, por las dependencias de ultralytics:
+```bash
+conda create --name alarma python=3.10 
+```
 
