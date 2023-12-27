@@ -24,6 +24,10 @@ Capacidades de Integración: El proyecto se puede integrar fácilmente con la in
 
 Primero crearemos una contraseña de [aplicación en google](https://myaccount.google.com/apppasswords), guardarla porque se utilizará más adelante.
 
+Escribir un nombre para su proyecto:
+![cuadro_proyecto](images/img1.PNG)
+
+
 ####  Creación de ambiente
 
 Ahora abriremos un `anaconda prompt` o un `terminal` para crear un ambiente conda limpio, en esta ocasión utilizaremos python v3.10, por las dependencias de la biblioteca ultralytics:
