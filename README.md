@@ -25,8 +25,14 @@ Capacidades de Integración: El proyecto se puede integrar fácilmente con la in
 Primero crearemos una contraseña de [aplicación en google](https://myaccount.google.com/apppasswords), guardarla porque se utilizará más adelante.
 
 Escribir un nombre para su proyecto:
+
+  
 ![cuadro_proyecto](images/img1.PNG)
 
+
+Recepción de contraseña:
+
+  ![cuadro_proyecto](images/img2.PNG)
 
 ####  Creación de ambiente
 
